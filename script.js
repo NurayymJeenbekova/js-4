@@ -16,15 +16,14 @@ const form = document.querySelector(".form");
 
         const t1 = document.createElement("div");
         t1.classList.add("task");
+        
         const t2 = document.createElement("div");
         t2.classList.add("todo-item");
         t2.innerText=task;
-
         t1.appendChild(t2);
-
         list.appendChild(t1);
         t1.addEventListener('click', () => {
             list.removeChild(t1);
         });
 
-    })
+    });
