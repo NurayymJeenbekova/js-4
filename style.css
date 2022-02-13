@@ -57,9 +57,9 @@ input {
      width: 340px;
      min-height: 40px;
      margin: 0 auto;
-     border: 1px solid gray;
-     border-radius: 10px;
-     margin-bottom: 20px;
+     
+     border-radius: 5px;
+     margin-bottom: 5px;
 }
  
 .task:first-child {
